@@ -46,7 +46,7 @@ function Signup() {
                 <input type="skills" className="form-control " placeholder="Enter comma separated skills" id="skills" />              
             </div>
             <div className="text-center py-4">
-            <button type="submit" className="button3"><span className="btntxt">Signup</span></button>
+            <button type="submit" className="button3"><span className="btntxt"><Link to="/jobs">Signup</Link></span></button>
             </div>
             <div className="text-center">
             <h6>Have an account? 

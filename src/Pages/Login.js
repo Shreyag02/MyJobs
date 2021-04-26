@@ -51,7 +51,8 @@ function Login() {
             </div>
             
             <div className="text-center py-4">
-            <button type="submit" className="button3"><span className="btntxt">Login</span></button>
+            <button type="submit" className="button3"><span className="btntxt">
+                <Link to="/jobs">Login</Link></span></button>
             </div>
             <div className="text-center">
             <h6>New to MyJobs? <span className="color2">
